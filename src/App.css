@@ -1,0 +1,43 @@
+div.mouth-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  height: 600px;
+  overflow: hidden;
+}
+
+svg.active-wave{
+  position: absolute;
+  top: 60%;
+  left: -157px;
+  animation: listen 3s infinite linear;
+
+}
+
+svg.wave{
+  position: absolute;
+  top: 60%;
+  left: -157px;
+  animation: listen 0s infinite linear;
+
+}
+
+svg.eyes{
+  position: absolute;
+  top: 25%;
+  left: 50px;
+  
+
+}
+
+@keyframes listen{
+  0%{
+      left: -157px;
+  }
+
+  100%{
+      left: -464px;
+  }
+}
